@@ -1,4 +1,4 @@
-1. Difference between compiler and interpreter?
+Q1. Difference between compiler and interpreter?
 ans: Interpreter and compiler both are used to translate the 
 program.
 
@@ -7,3 +7,55 @@ interpreter--> interpreter translate the program statement by statement
 
 compiler--> compiler scan the whole program 
 and translate  the whole program.
+
+------------------------------------------------------
+
+Q2. Answer:
+
+
+
+
+
+import java.util.Scanner;
+ 
+ class Student
+{
+  int roll_no;
+  String name;
+  float marks;
+  
+  public void display()
+  {
+    System.out.println("roll no is :"+roll_no);
+    System.out.println("Name is :"+name);
+ System.out.println("Mark's is :"+marks);
+  }
+  
+
+
+  public static void main(String...args)
+  {
+    Scanner sc = new Scanner(System.in);
+    Student s1= new Student();
+    System.out.println("Enter roll no");
+     s1.roll_no = sc.nextInt();
+     System.out.println("Enter your name");
+     s1.name=sc.next();
+     System.out.println("Enter your marks");
+     s1.marks=sc.nextFloat();
+    
+    
+    System.out.println("To display your data press 1");
+    int choice=sc.nextInt();
+    if(choice==1)
+    {
+      s1.display();
+    }
+    else
+{
+  System.out.println("\tThankyou for storing data");
+}
+    
+    
+}
+}
