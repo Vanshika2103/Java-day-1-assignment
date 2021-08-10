@@ -1,0 +1,9 @@
+1. Difference between compiler and interpreter?
+ans: Interpreter and compiler both are used to translate the 
+program.
+
+
+interpreter--> interpreter translate the program statement by statement
+
+compiler--> compiler scan the whole program 
+and translate  the whole program.
