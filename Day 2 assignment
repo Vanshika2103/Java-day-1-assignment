@@ -1,0 +1,17 @@
+Assignment: 
+---------------
+Write a Java program which would take two values 
+through command line argument and print the
+ sum of the two values.
+
+Solution:
+---------------
+
+public class  Main
+{
+public static void main(String...args)
+{
+system.out.println("sum of two numbers using command line argument is " +(args[0]+args[1]));
+
+}
+}
